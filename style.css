@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    
+   
+}
+
+img{
+    height: 200px;
+    width:200px;
+    padding-top: 10px;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 5px;
+    box-shadow: hsla(190, 97%, 49%, 0.932) 0px 7px 12px;
+    border-radius: 15px;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.cardd{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+
+button{
+   padding:10px;
+   background-color: rgb(236, 9, 9);
+   
+}
+
+.navbar{
+    /* background-color: grey; */
+    padding: 20px;
+}
